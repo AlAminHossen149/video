@@ -1,0 +1,305 @@
+.header-menu span{
+    display: none;
+}
+@media (min-width: 1400px){
+
+}
+@media (max-width:1210px){
+    .container {
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width:1200px){
+    .container {
+        width: 100%;
+    }
+}
+@media (max-width:1145px){
+    .member-per-one img {
+        width: 100%;
+    }
+    .new-two {
+        width: 48%;
+    }
+    .form-right input:nth-child(3) {
+        margin-left: 60px;
+    }
+}
+@media (max-width:1115px){
+    .container {
+        box-sizing: border-box;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .report-one p {
+        width: 90%;
+    }
+    .report-two p {
+        width: 90%;
+    }
+    .form-right input:nth-child(1) {
+        padding-right: 50%;
+    }
+    .form-right input:nth-child(2) {
+        padding-right: 50%;
+    }
+    .form-right input:nth-child(3) {
+        padding-right: 50%;
+    }
+    .form-right textarea {
+        padding-right: 38%;
+    }
+    .form-right a {
+        padding-right: 35%;
+    }
+    .child-two img {
+        margin: 30px 0 0 50px;
+    }
+}
+@media (max-width:1024px){
+    .header-menu {
+        width: 55%;
+    }
+    .header-button {
+        width: 15%;
+    }
+    .service-box {
+        width: 44.5%;
+    }
+    .service-one {
+        width: 31%;
+    }
+    .member-per-one {
+        width: 45%;
+    }
+    .report-one {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .report-two {
+        width: 100%;
+    }
+}
+@media (max-width:992px){
+    .map {
+        width: 100%;
+    }
+    .form-right {
+        width: 100%;
+    }
+    form {
+        text-align: center;
+    }
+    .form-right textarea {
+        padding-right: 44%;
+    }
+    .form-right a {
+        padding-right: 33%;
+        padding-left: 34%;
+        margin-left: 160px;
+    }
+}
+@media (max-width:800px){
+    .header {
+        position: relative;
+    }
+    .header-menu ul li {
+        padding: 10px 10px;
+    }
+    .banner {
+        margin-top: 0;
+    }
+    .div-left {
+        width: 100%;
+    }
+    .div-right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .div-right p {;
+        margin-right: 6px;
+    }
+    .banner {
+        padding: 100px 0;
+    }
+    .banner-bottom {
+        padding: 30px 0;
+    }
+    .service {
+        padding: 30px 0;
+    }
+    .service-text1 h1 {
+        font-size: 35px;
+    }
+    .child-two img {
+        margin: 30px -8px -10px 10px;
+    }
+}
+@media (max-width:786px){
+    .service-top {
+        padding: 0px 0;
+    }
+    .service-box {
+        width: 100%;
+    }
+    .service-top h1 {
+        font-size: 40px;
+    }
+    .service-top p {
+        font-size: 18px;
+    }
+    .service-one {
+        width: 100%;
+    }
+    .member-per-one {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .form-right a {
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-left: 250px;
+    }
+    .header-logo span {
+        font-size: 18px;
+    }
+}
+@media (max-width:700px){
+    .header-menu ul {
+        opacity: 0;
+    }
+    .header-menu span {
+        display: block;
+        color: #6278df;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header-logo img {
+        float: none;
+    }
+    .header-logo span {
+        font-size: 15px;
+        position: relative;
+        top: -11px;
+        left: 10px;
+    }
+    .header-button {
+        width: 200px;
+        text-align: center;
+        margin-left: -100px;
+    }
+    .container {
+        padding-right: 50px;
+    }
+    .service-one {
+        padding: 15px 50px;
+        box-sizing: border-box;
+    }
+    .feedback-one h1 {
+        margin: 10px 0;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .feedback-two .child-one p {
+        margin-top: 0px;
+        color: #767676;
+        font-size: 14px;
+    }
+    .child-two img {
+        width: 50px;
+        height: 50px;
+        margin: 15px -8px -10px 8px
+    }
+    .child-two h5 {
+        margin: 28px 0px 10px 15px;
+        font-size: 15px;
+    }
+    .child-two p {
+        left: 18px;
+        top: 15px;
+    }
+    .form-right a {
+        margin-left: 187px;
+    }
+    .member-head h1 {
+        font-size: 25px;
+    }
+}
+@media (max-width:545px){
+    .banner h3 {
+        font-size: 17px;
+    }
+    .banner h1 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .banner .button {
+        padding: 10px 10px;
+    }
+    .div-right h1 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .div-right p {
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .service-text1 h1 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .service-text1 h5 {
+        font-size: 15px;
+        margin-bottom: 10px;
+   
+    }
+    .service-top h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .service-top p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .member-head h1 {
+        font-size: 20px;
+        margin-top: -35px;
+    }
+    .subscribe-text p {
+        font-size: 15px;
+        margin-top: -84px;
+        margin-bottom: -38px;
+    }
+    .subscribe-text h1 {
+        font-size: 25px;
+        margin-bottom: -20px;
+    }
+    .subscribe {
+        padding-bottom: 10px;
+    }
+    .new-one {
+        width: 100%;
+        text-align: center;
+    }
+    .new-one h1 {
+        font-size: 30px;
+    }
+    .new-two {
+        width: 100%;
+    }
+    .form-right textarea {
+        padding-right: 15%;
+    }
+    .form-right a {
+        margin-left: 155px;
+    }
+}
